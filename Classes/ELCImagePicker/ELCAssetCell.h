@@ -12,5 +12,6 @@
 
 - (id)initWithAssets:(NSArray *)assets reuseIdentifier:(NSString *)identifier;
 - (void)setAssets:(NSArray *)assets;
+- (void)handleLongPress:(UIImageView *)sender;
 
 @end
